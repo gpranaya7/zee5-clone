@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+    .hid{
+      display:none;
+    }
+      </style>
+    
+  
+</body>
+</head>
+<body>
+  
+    <nav class="navbar-brand navbar  " id="navbar" onclick="sernormal()">
+        <div class="container-fluid ">
+            <div class="d-flex ">
+            <img src="zee5.jpg" alt="zee5 icon"   id="zee5" onclick="sernormal()">
+            
+                <div id="centertags" >
+                  <a href="home.html" class="effect">Home</a>
+                    <a href="tvshows.html" class="effect">Tv shows</a>
+                    <a href="movies.html" class="effect">Movies</a>
+                    
+                    <a href"" class="hide effect">web series</a>
+                      <a href="" class="hide effect">rent</a>
+                      <a href="" class="hide effect">music</a>
+                      <a href="" class="hide effect">live tv</a>
+                      <a href="" class="hide effect">sports</a>
+                      
+                    
+                    
+                   
+                      <button class="bi bi-list" id="dropdwn" >
+                        <ul class="list-group ">
+                          <li class="list-group-item">web series</li>
+                          <li class="list-group-item">rent</li>
+                          <li class="list-group-item">music</li>
+                          <li class="list-group-item">live tv</li>
+                          <li class="list-group-item">sports</li>
+                        </ul>
+                      </button>
+                     
+                
+                        
+                    </div>
+                    <i class="bi bi-search " id="sear"></i>
+                    <input type="search" name="mvesearch" id="mvesearch"  class="end " onclick="ser()" placeholder="      search for movies,shows etc.," >
+                    <div id="login">
+                      <button id="serbutton" class="end ">login </button>
+
+
+                    </div>
+
+                       
+                </div>
+                
+            
+            
+           </div>
+       
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide "onclick="sernormal()" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/clone/images/4caro.webp" class="d-block w-100" alt="..." height="500px" width="100%" class="image">
+          </div>
+          <div class="carousel-item ">
+            <img src="/clone/images/5caro.webp" class="d-block w-100" alt="..." height="500px" width='100%' class="image" >
+          </div>
+          <div class="carousel-item">
+            <img src="/clone/images/6caro.webp" class="d-block w-100" alt="..." height="500px" width="100%" class="image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="Trending">
+        <h3   >Trending</h3>
+        <button id="leftarrow">prev   </button>
+       <button  id="arrow">next</button> 
+      </div>
+      <div id="firstrowoffilms"><section class="container-fluid">
+        <div class="row" >
+          <div class="col-lg-2 col-sm-4 col-6 col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <a href="/clone/images/18.webp">                <img src="/clone/images/18.webp" alt="" height="400px" width="180px" id="wed " class="films ">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+            <div class="card">
+              <div class="card-body" >
+                <a href="images/13.webp">                <img class='imgg'src="/clone/images/13.webp" alt="" height="400px" width="180px" id="st" class="films">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-6 col-sm-4 col-md-3 small ">
+            <div class="card">
+              <div class="card-body" >
+                <a href="images/14.webp">                <img class='imgg'src="images/14.webp" alt="" height="400px" width="180px" id="hp" class="films">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-6 col-sm-4 col-md-3 small md">
+            <div class="card">
+              <div class="card-body" >
+                <a href="images/15.webp">                <img class='imgg'src="/clone/images/15.webp" alt="" height="400px" width="180px" id="dev" class="films">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-6 col-sm-4 col-md-3 small md lg">
+            <div class="card">
+              <div class="card-body"  >
+                <a href="images/16.webp">                <img class='imgg'src="/clone/images/16.webp" alt="" height="400px" width="180px" id="io2" class="films">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-2 col-6 col-sm-4 col-md-3 small md lg">
+            <div class="card">
+              <div class="card-body" >
+                <a href="images/17.webp">                <img class='imgg'src="/clone/images/17.webp" alt="" height="400px" width="180px" class="films" id="eeaao">
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </section></div>
+      </div>
+      
+         
+         <div id="secondrowoffilms" class="display "><section class="container-fluid">
+          <div class="row" >
+            <div class="col-lg-2 col-sm-4 col-6 col-md-3">
+              <div class="card">
+                <div class="card-body">
+                  <a href="/clone/images/19.webp">                <img src="/clone/images/19.webp" alt="" height="400px" width="180px" id="wed" class="films films2 " >
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="/clone/images/20.webp">                <img class='imgg'src="/clone/images/20.webp" alt="" height="400px" width="180px" id="st" class="films films2">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="images/21.webp">                <img class='imgg'src="/clone/images/21.webp" alt="" height="400px" width="180px" id="hp" class="films films2 ">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="images/22.webp">                <img class='imgg'src="/clone/images/22.webp" alt="" height="400px" width="180px" id="dev" class="films films2">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body"  >
+                  <a href="clone/images/23.webp">                <img class='imgg'src="/clone/images/23.webp" alt="" height="400px" width="180px" id="io2" class="films films2">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="/clone/images/24.webp">                <img class='imgg'src="/clone/images/24.webp" alt="" height="400px" width="180px" class="films films2" id="eeaao ">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+      
+        
+        <div id="top">
+          <h3 >Top 10 in india</h3>
+        </div>
+        <section class="container-fluid">
+          <div class="row" >
+            <div class="col-lg-2 col-sm-4 col-6 col-md-3">
+              <div class="card">
+                <div class="card-body">
+                  <a href="/clone/images/19.webp">                <img src="/clone/images/19.webp" alt="" height="400px" width="180px" id="wed" class="films ">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="/clone/images/20.webp">                <img class='imgg'src="/clone/images/20.webp" alt="" height="400px" width="180px" id="st" class="films">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3 small ">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="images/21.webp">                <img class='imgg'src="/clone/images/21.webp" alt="" height="400px" width="180px" id="hp" class="films">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3  small md">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="images/22.webp">                <img class='imgg'src="/clone/images/22.webp" alt="" height="400px" width="180px" id="dev" class="films">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3 small md lg">
+              <div class="card">
+                <div class="card-body"  >
+                  <a href="clone/images/23.webp">                <img class='imgg'src="/clone/images/23.webp" alt="" height="400px" width="180px" id="io2" class="films">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 col-md-3 small md lg">
+              <div class="card">
+                <div class="card-body" >
+                  <a href="/clone/images/24.webp">                <img class='imgg'src="/clone/images/24.webp" alt="" height="400px" width="180px" class="films" id="eeaao">
+                  </a>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+          
+     </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  let searchbutton=document.getElementById('mvesearch');
+let sericon=document.getElementById('sear')
+let film2 =document.getElementById('secondrowoffilms')
+let arrowbutton=document.getElementById('arrow')
+let film1=document.getElementById('firstrowoffilms')
+  function ser(){
+    let navbarcontent=document.getElementById('centertags');
+    let loginbutton=document.getElementById('login');
+    searchbutton.style.width='700px';
+    sericon.classList.add('display')
+ 
+    
+
+navbarcontent.classList.add('hid');
+loginbutton.classList.add('hid');
+  }
+  arrowbutton.addEventListener('click',function(){
+    film1.classList.add('display')
+    film2.classList.remove('display')
+    
+
+  })
+  let leftbutton=document.getElementById('leftarrow')
+  leftbutton.addEventListener('click',function(){
+    film2.classList.add('display')
+    film1.classList.remove('display')
+  })
+  
+    
+
+  
+
+
+  
+
+ 
+ 
+    
+
+
+
+ 
+
+    
+
+    
+    
+    
+
+</script>
+      </body>
+</html>

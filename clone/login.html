@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Login </h1>
+        
+        <div class="card">
+            <div class="card-body" ">
+                <form  method="POST">
+                    <label for="un">
+                        username
+                    </label>
+                <input type="text" name="un" id="un" ><br><br>
+                <label for="pw">password</label>
+                <input type="text" name="pw" id="pw" ><br><br>
+                <input type="submit" value="login" id="submitbutton" >
+                </form>
+            </div>
+
+
+        </div>
+    </center>
+    <script>
+        let sub=document.getElementById('submitbutton');
+        sub.addEventListener('click',function(){
+            let user=document.getElementById('un').value;
+            localStorage.setItem('username',user)
+            let psword=document.getElementById('pw').value;
+            localStorage.setItem('password',psword)
+        }
+        )
+
+       
+    </script>
+</body>
+</html>

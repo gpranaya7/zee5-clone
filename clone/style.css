@@ -1,0 +1,368 @@
+#zee5 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.hide{
+    display:none
+}
+#navbar{
+    background-color: #0F0617;
+z-index: 10;
+width: 100%;
+
+
+}
+h1{
+    color: wheat;
+}
+a{
+padding-left: 20px;
+padding-top: ;
+
+}
+
+li{
+    color: aliceblue;
+    padding-top: 20px;
+
+
+}
+#centertags{
+    padding-top: 20px;
+    font-family: NotoSansRegular, sans-serif;
+   
+    
+
+}
+a{
+    color: hsla(0,0%,100%,.9);
+}
+option{
+    display: none;
+    background-color:black;
+    color: white;
+    margin-top: 20px;
+   
+}
+
+.ddown:hover{
+    color: plum;
+    option{
+        padding-top: 20px;
+        display:block;
+        z-index: 100;
+        position: absolute;
+
+    }
+}
+.ddown{
+    background-color: #0F0617;
+    color: white;
+    margin-left: 20px;
+
+}
+#CarouselExampleIndicators{
+    z-index: 1;
+}
+input{
+height: 40px;
+margin-top: 20px;
+width: 400px;
+margin-left: 400px;
+
+}
+
+#serbutton{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.row{
+    background-color: #0F0617;
+}
+.card-body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: #0F0617;
+}
+imgg:hover{
+   border: 20px white;
+
+}
+#Trending{
+background-color: #0F0617;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+width: 100%;
+}
+#st:hover {
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+.end{
+    border-radius: 10px;
+}
+#dropdwn{
+    border-radius: 5px;
+}
+.films{
+    z-index: 10px;
+    background-color: #0F0617;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+#dev:hover {
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+#wed:hover {
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+#io2:hover {
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+#hp:hover {
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+#eeaao:hover{
+    transform: scale(1.1);
+    z-index:100px;
+
+}
+
+.hid{
+    display: none;
+}
+
+#navbar:hover{
+    input{
+        width: 400px;}
+
+}
+.list-group{
+    display: none;
+
+    
+    
+    
+}
+#dropdwn:hover{
+    color: plum;
+    .list-group{
+        display: block;
+        z-index: 100px;
+        position:absolute;
+right: 1000px;
+
+    }
+
+}
+#dropdwn{
+    margin-left: 20px;
+    background-color: #0F0617;
+    color: white;
+}
+.list-group-item{
+    
+    background-color:#0F0617 ;
+    color: white;
+
+
+}
+
+
+#top10{
+    background-color: #0F0617;
+    width: 100%;
+    padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+margin: 0px;
+border: 0px;
+
+
+
+
+color: white;}
+.films{
+}
+
+.display{
+    display:none
+}
+#edge{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    
+    
+}
+#top{
+    background-color: #0F0617;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+body{
+    background-color: #0F0617;
+}
+.effect{
+text-decoration:none;
+}
+.effect:hover{
+text-decoration:underline;}
+.list-group-item{
+    
+    border-bottom: 10px;
+}
+#sear{
+    color: black;
+    margin-top: 25px;
+    margin-left: 858px;
+    position: absolute;
+    z-index:100;
+}
+
+  #arrow{
+    margin-left: 1400px;
+    
+  }
+ #leftarrow,#arrow{
+    background-color: #0F0617;
+    color: white;
+
+    
+ }
+ .small,.md{
+    display:block
+ }
+ @media(max-width:575px){
+    .small{
+        display:none;
+    }
+    #leftarrow{
+        display: none;
+    }
+ }
+ #navbar{
+    width: 100%;
+
+ }
+@media (max-width: 767px){
+    
+    
+    #zee5{
+        margin-top: 60px;
+    }
+    #centertags{
+        padding-top: 80px;
+        z-index: 10;
+       
+    }
+   .image{
+    height: 300px;
+   }
+   
+   #sear{
+    position: absolute;
+    right: 80px;
+    z-index: 100;
+    color: white;
+   }
+   .end{
+    display:none
+   }
+   
+   .hide{
+    display:inline
+   }
+   #dropdwn{
+display:none
+
+}
+.md{
+    display:none;
+
+}
+#CarouselExampleIndicators{
+    height: 200px;
+}
+.image{
+    height:200px;
+}
+
+
+#leftarrow{
+    display: none;
+}
+    
+}
+@media(min-width:768px)and (max-width:991px) {
+    #zee5{
+        margin-top: 60px;
+    }
+    #centertags{
+        padding-top: 80px;
+        z-index: 10;
+       
+    }
+    
+.image{
+    height:400px
+}
+#sear{
+    
+    position: absolute;
+    right: 5px;
+    z-index: 100;
+    color: white;
+   }
+   
+   .end{
+    display:none
+   }
+    
+   .hide{
+    display:inline
+   }
+   #dropdwn{
+display:none
+
+}
+.lg{
+    display:none
+}
+
+#leftarrow{
+    display: none;
+}
+@media(min-width:992px){
+    .image{
+        height:500px
+    }}
+    
+.display{
+    display:none;
+}}
+
